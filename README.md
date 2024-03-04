@@ -26,8 +26,7 @@ Javascript e Axios para consumo da API
 
 
 ## Como rodar?
-será necessário a instalação do Xamp:
-Xamp
+será necessário a instalação do Xampp
 
 Irá precisar também de um arquivo .env com as seguintes variáveis:
 
