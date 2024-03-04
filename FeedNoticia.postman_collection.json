@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "d47dbae6-1fb9-4277-961d-44f201a716a1",
+		"name": "FeedNoticia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25978868"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Titulo para Materia\",\r\n  \"descricao\": \"Breve descricao\",\r\n  \"texto_completo\": \"Este é o texto completo de exemplo.\",\r\n  \"imagem\": \"imagem exemplo\",\r\n  \"data_de_publicacao\": \"2024-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/materias/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"materias",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/materia",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Titulo para Materia\",\r\n  \"descricao\": \"Breve descricao\",\r\n  \"texto_completo\": \"Este é o texto completo de exemplo.\",\r\n  \"imagem\": \"imagem exemplo\",\r\n  \"data_de_publicacao\": \"2024-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/materias",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"materias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/materias/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Titulo para Materia\",\r\n  \"descricao\": \"Breve descricao\",\r\n  \"texto_completo\": \"Este é o texto completo de exemplo.\",\r\n  \"imagem\": \"imagem exemplo\",\r\n  \"data_de_publicacao\": \"2024-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/materias/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"materias",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/materia/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Titulo para Materia\",\r\n  \"descricao\": \"Breve descricao\",\r\n  \"texto_completo\": \"Este é o texto completo de exemplo.\",\r\n  \"imagem\": \"imagem exemplo\",\r\n  \"data_de_publicacao\": \"2024-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/materia/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"materia",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
